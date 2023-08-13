@@ -122,8 +122,8 @@ function App() {
               <img src={Pria} alt="" width="200px" />
               <p className="fw-bold fs-1">Hidmat Sopwan Hidayat</p>
               <p className="fs-4">
-                Putra Bungsu Dari : <br /> Bapak Dadang Komara <br /> & <br />
-                Ibu Yayah Mariah
+                Putra Bungsu Dari : <br /> Bapak Anwar Sani <br /> & <br />
+                Ibu Elah Hayati
               </p>
             </Col>
           </Row>
@@ -139,8 +139,8 @@ function App() {
               <img src={Wanita} alt="" width="200px" />
               <p className="fw-bold fs-1">Neli Nulianti</p>
               <p className="fs-4">
-                Putra Bungsu Dari : <br /> Bapak Dadang Komara <br /> & <br />
-                Ibu Yayah Mariah
+                Putra Bungsu Dari : <br /> Bapak Yusuf <br /> & <br />
+                Ibu Entin
               </p>
             </Col>
           </Row>
