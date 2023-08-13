@@ -9,7 +9,7 @@ import Love from "./assets/resepsi.png";
 import Pria from "./assets/mempelai-pria.png";
 import Wanita from "./assets/mempelai-wanita.png";
 import BRI from "./assets/bri.png";
-import BCA from "./assets/bca.png";
+import BCA from "./assets/bca-syariah.png";
 
 import Ornament2 from "./assets/ornament/ornament-2.png";
 import OrnamentAtas from "./assets/ornament/ornament-atas-2.png";
@@ -258,7 +258,7 @@ function App() {
           </Row>
           <Row>
             <Col className="text-center">
-              <img src={BCA} alt="gambar" className="mb-3" />
+              <img src={BCA} alt="gambar" className="mb-3 bca" />
               <div className={copied2 ? "discount-code2 discount-applied2" : "discount-code2"}>
                 <div className="black-code2">{rekening2}</div>
                 {copied2 ? (

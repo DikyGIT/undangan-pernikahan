@@ -281,6 +281,10 @@
   width: 200px;
 }
 
+.gift .bca {
+  width: 400px;
+}
+
 @media screen and (max-width: 992px) {
   .gift {
     width: 80%;
@@ -300,6 +304,10 @@
 
   .gift h1 {
     font-size: 60px;
+  }
+
+  .gift .bca {
+    width: 300px;
   }
 }
 
