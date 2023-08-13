@@ -107,7 +107,7 @@ function App() {
         <Container>
           <Row>
             <Col>
-              <p className="text-center lh-lg text-white">
+              <p className="text-center lh-lg text-white" data-aos="fade-up" data-aos-duration="1000">
                 “Dan Diantara Tanda-tanda (Kebesaran) -Nya Ialah Dia Menciptakan Pasangan-pasangan Untukmu Dari Jenismu Sendiri, Agar Kamu Cenderung Dan Merasa Tenteram Kepadanya, Dan Dia Menjadikan Diantaramu Rasa Kasih Dan Sayang.
                 Sungguh, Pada Yang Demikian Itu Benar-benar Terdapat Tanda-tanda (Kebesaran Allah) Bagi Kaum Yang Berfikir” <br /> {"Q.S : Ar-Rum (30) : 21"}
               </p>
@@ -121,12 +121,14 @@ function App() {
         <Container>
           <Row className="pt-md-5 pt-3">
             <Col className="text-center">
-              <p className="fw-semibold py-5">Dengan Memohon Rahmat Dan Ridho Dari Allah SWT. Kami Bermaksud Menyelenggarakan Syukuran Pernikahan Putra Putri Kami</p>
-              <img src={Pria} alt="" width="200px" />
-              <p className="fw-bold fs-1" style={{ fontFamily: "Great Vibes, cursive" }}>
+              <p className="fw-semibold py-5" data-aos="fade-up" data-aos-duration="1000">
+                Dengan Memohon Rahmat Dan Ridho Dari Allah SWT. Kami Bermaksud Menyelenggarakan Syukuran Pernikahan Putra Putri Kami
+              </p>
+              <img src={Pria} alt="" width="200px" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" />
+              <p className="nama-mempelai fw-bold" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                 Hidmat Sopwan Hidayat
               </p>
-              <p className="fs-4">
+              <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                 Putra Dari : <br /> Bapak Anwar Sani <br /> & <br />
                 Ibu Elah Hayati
               </p>
@@ -134,18 +136,18 @@ function App() {
           </Row>
           <Row>
             <Col className="text-center">
-              <h1 className="py-5" style={{ fontSize: "100px", fontFamily: "Great Vibes, cursive" }}>
+              <h1 className="py-5" style={{ fontSize: "100px", fontFamily: "Great Vibes, cursive" }} data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                 &
               </h1>
             </Col>
           </Row>
           <Row className="pb-5">
             <Col className="text-center">
-              <img src={Wanita} alt="" width="200px" />
-              <p className="fw-bold fs-1" style={{ fontFamily: "Great Vibes, cursive" }}>
+              <img src={Wanita} alt="" width="200px" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" />
+              <p className="fw-bold nama-mempelai" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                 Neli Nulianti
               </p>
-              <p className="fs-4">
+              <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                 Putri Dari : <br /> Bapak Yusuf <br /> & <br />
                 Ibu Entin
               </p>
@@ -164,10 +166,10 @@ function App() {
               </p>
             </Col>
           </Row>
-          <Row>
+          <Row className="mb-4">
             <Col className="text-center">
               <img src={Cincin} alt="" className="mb-4" style={{ width: "100px" }} />
-              <h1 className="mb-4" style={{ fontFamily: "Great Vibes, cursive" }}>
+              <h1 className="mb-3" style={{ fontFamily: "Great Vibes, cursive" }}>
                 Akad Nikah
               </h1>
               <p className="fw-semibold fs-5">
@@ -180,7 +182,7 @@ function App() {
           </Row>
           <Row>
             <Col className="text-center">
-              <h1 className="my-4" style={{ fontFamily: "Great Vibes, cursive" }}>
+              <h1 className="my-3" style={{ fontFamily: "Great Vibes, cursive" }}>
                 Resepsi
               </h1>
               <p className="fw-semibold fs-5">
@@ -204,7 +206,7 @@ function App() {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4703.64173584197!2d107.91801071401125!3d-7.544908225796909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6605b024c35955%3A0x652230e78dba9c17!2sTaman%20Pendidikan%20Al-Qur&#39;an%20(TPA)%20As%20Syafiiyah!5e0!3m2!1sid!2sid!4v1691909269754!5m2!1sid!2sid"
                 width="100%"
                 height="450"
-                style={{ border: "0px" }}
+                style={{ border: "5px solid #0D6EFD" }}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
@@ -268,7 +270,7 @@ function App() {
           <Row>
             <Col className="text-center text-white">
               <p className="lh-lg">Tiada Yang Dapat Kami Ungkapkan Selain Rasa Terimakasih Dari Hati Yang Tulus Apabila Bapak/ Ibu/ Saudara/i Berkenan Hadir Untuk Memberikan Do’a Restu Kepada Kami</p>
-              <h1>Hidmat & Neli</h1>
+              <h1 style={{ fontFamily: "Great Vibes, cursive" }}>Hidmat & Neli</h1>
               <p>Ahad, 03 September 2023</p>
             </Col>
           </Row>
