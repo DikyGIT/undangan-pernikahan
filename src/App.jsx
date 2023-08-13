@@ -122,7 +122,7 @@ function App() {
               <img src={Pria} alt="" width="200px" />
               <p className="fw-bold fs-1">Hidmat Sopwan Hidayat</p>
               <p className="fs-4">
-                Putra Bungsu Dari : <br /> Bapak Anwar Sani <br /> & <br />
+                Putra Dari : <br /> Bapak Anwar Sani <br /> & <br />
                 Ibu Elah Hayati
               </p>
             </Col>
@@ -139,7 +139,7 @@ function App() {
               <img src={Wanita} alt="" width="200px" />
               <p className="fw-bold fs-1">Neli Nulianti</p>
               <p className="fs-4">
-                Putra Bungsu Dari : <br /> Bapak Yusuf <br /> & <br />
+                Putri Dari : <br /> Bapak Yusuf <br /> & <br />
                 Ibu Entin
               </p>
             </Col>
@@ -168,7 +168,7 @@ function App() {
             <Col className="text-center">
               <h1 className="my-4">Resepsi</h1>
               <p className="fw-semibold fs-5">Ahad, 03 September 2023</p>
-              <p className="fw-semibold fs-5">Pukul : 10.00 - 13.00 WIB</p>
+              <p className="fw-semibold fs-5">Pukul : 10.00 - 15.00 WIB</p>
             </Col>
           </Row>
           <Row className="my-5">
