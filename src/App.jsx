@@ -161,7 +161,7 @@ function App() {
               <img src={Cincin} alt="" className="mb-4" style={{ width: "100px" }} />
               <h1 className="mb-4">Akad Nikah</h1>
               <p className="fw-semibold fs-5">Ahad, 03 September 2023</p>
-              <p className="fw-semibold fs-5">Pukul : 08.00 WIB s/d selesai</p>
+              <p className="fw-semibold fs-5">Pukul : 08.00 s/d 10.00 WIB</p>
             </Col>
           </Row>
           <Row>
