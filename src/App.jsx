@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import HeroImg from "./assets/hero-img.png";
 import Bismillah from "./assets/bismillah.png";
 import Cincin from "./assets/cincin.png";
+import Love from "./assets/resepsi.png";
 import Pria from "./assets/mempelai-pria.png";
 import Wanita from "./assets/mempelai-wanita.png";
 import BRI from "./assets/bri.png";
@@ -161,43 +162,48 @@ function App() {
         <Container>
           <Row>
             <Col className="text-center">
-              <p className="fs-4 fw-bold py-5">
+              <p className="fs-4 fw-bold py-5" data-aos="fade-up" data-aos-duration="1000">
                 Insya Allah Acara Akan <br /> Dilaksanakan Pada :
               </p>
             </Col>
           </Row>
-          <Row className="mb-4">
+          <Row className="mb-5">
             <Col className="text-center">
-              <img src={Cincin} alt="" className="mb-4" style={{ width: "100px" }} />
-              <h1 className="mb-3" style={{ fontFamily: "Great Vibes, cursive" }}>
+              <img src={Cincin} alt="" className="mb-4" style={{ width: "100px" }} data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" />
+              <h1 className="mb-3" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                 Akad Nikah
               </h1>
-              <p className="fw-semibold fs-5">
+              <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                 <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Ahad, 03 September 2023
               </p>
-              <p className="fw-semibold fs-5">
+              <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                 <i className="fa-solid fa-clock me-2 fs-3 text-success"></i>Pukul : 08.00 s/d 10.00 WIB
               </p>
             </Col>
           </Row>
           <Row>
             <Col className="text-center">
-              <h1 className="my-3" style={{ fontFamily: "Great Vibes, cursive" }}>
+              <img src={Love} alt="" className="mb-3" style={{ width: "100px" }} data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" />
+              <h1 className="my-3" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                 Resepsi
               </h1>
-              <p className="fw-semibold fs-5">
+              <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                 {" "}
                 <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Ahad, 03 September 2023
               </p>
-              <p className="fw-semibold fs-5">
+              <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                 <i className="fa-solid fa-clock me-2 fs-3 text-success"></i>Pukul : 10.00 - 15.00 WIB
               </p>
             </Col>
           </Row>
           <Row className="my-5">
             <Col className="text-center">
-              <p className="fs-4">Bertempat Di</p>
-              <p className="fs-4">Taman Pendidikan Al-Quran (TPA) As Syafiiyah - Kp. Nangoh, Desa. Toblong, Kec. Peundeuy, Kab. Garut</p>
+              <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                Bertempat Di
+              </p>
+              <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                Taman Pendidikan Al-Quran (TPA) As Syafiiyah - Kp. Nangoh, Desa. Toblong, Kec. Peundeuy, Kab. Garut
+              </p>
             </Col>
           </Row>
           <Row>
@@ -214,7 +220,7 @@ function App() {
           </Row>
           <Row>
             <Col className="text-center py-5">
-              <a className="btn btn-primary" target="_blank" href="https://maps.app.goo.gl/v66njrBWv6GLRbYM9" rel="noreferrer">
+              <a className="btn btn-primary btn-lg" target="_blank" href="https://maps.app.goo.gl/v66njrBWv6GLRbYM9" rel="noreferrer">
                 <i className="fa-solid fa-location-dot me-2"></i>Lihat Lokasi
               </a>
             </Col>
