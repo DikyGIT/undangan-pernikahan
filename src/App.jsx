@@ -5,13 +5,15 @@ import { Container, Row, Col } from "react-bootstrap";
 import HeroImg from "./assets/hero-img.png";
 import Bismillah from "./assets/bismillah.png";
 import Cincin from "./assets/cincin.png";
-import Pria from "./assets/pria.png";
-import Wanita from "./assets/wanita.png";
+import Pria from "./assets/mempelai-pria.png";
+import Wanita from "./assets/mempelai-wanita.png";
 import BRI from "./assets/bri.png";
 import BCA from "./assets/bca.png";
 
-import Ornament1 from "./assets/ornament/ornament.png";
+// import Ornament1 from "./assets/ornament/ornament.png";
 import Ornament2 from "./assets/ornament/ornament-2.png";
+import OrnamentAtas from "./assets/ornament/ornament-atas-2.png";
+import OrnamentBawah from "./assets/ornament/ornament-bawah-2.png";
 
 function App() {
   const [timerHari, setTimerHari] = useState("00");
@@ -61,10 +63,13 @@ function App() {
 
   return (
     <div>
+      {/* Navbar */}
+
       <section className="page-awal mx-auto py-5 position-relative">
-        <img src={Ornament1} alt="" className="ornament-1" />
-        <img src={Ornament1} alt="" className="ornament-2" />
-        <Container style={{ paddingTop: "100px", paddingBottom: "100px" }}>
+        {/* <img src={Ornament1} alt="" className="ornament-1" />
+        <img src={Ornament1} alt="" className="ornament-2" /> */}
+        <img src={OrnamentAtas} alt="" className="ornament-atas" />
+        <Container>
           <Row className="px-5">
             <Col className="text-center">
               <img src={Bismillah} alt="bismillah.png" className="bismillah mb-4" />
@@ -99,8 +104,9 @@ function App() {
             </Col>
           </Row>
         </Container>
+        <img src={OrnamentBawah} alt="" className="ornament-bawah" />
       </section>
-      <section className="surat w-100 d-flex align-items-center" style={{ minHeight: "50vh", backgroundColor: "black" }}>
+      <section className="surat w-100 d-flex align-items-center" style={{ minHeight: "50vh", backgroundColor: "#22223b" }}>
         <Container>
           <Row>
             <Col>
@@ -114,13 +120,15 @@ function App() {
       </section>
 
       <section className="mempelai min-vh-100 mx-auto position-relative">
-        <img src={Ornament2} alt="" className="ornament" />
+        <img src={Ornament2} alt="" className="ornament-atas" />
         <Container>
           <Row className="pt-md-5 pt-3">
             <Col className="text-center">
               <p className="fw-semibold py-5">Dengan Memohon Rahmat Dan Ridho Dari Allah SWT. Kami Bermaksud Menyelenggarakan Syukuran Pernikahan Putra Putri Kami</p>
               <img src={Pria} alt="" width="200px" />
-              <p className="fw-bold fs-1">Hidmat Sopwan Hidayat</p>
+              <p className="fw-bold fs-1" style={{ fontFamily: "Great Vibes, cursive" }}>
+                Hidmat Sopwan Hidayat
+              </p>
               <p className="fs-4">
                 Putra Dari : <br /> Bapak Anwar Sani <br /> & <br />
                 Ibu Elah Hayati
@@ -129,15 +137,17 @@ function App() {
           </Row>
           <Row>
             <Col className="text-center">
-              <h1 className="py-5" style={{ fontSize: "100px" }}>
+              <h1 className="py-5" style={{ fontSize: "100px", fontFamily: "Great Vibes, cursive" }}>
                 &
               </h1>
             </Col>
           </Row>
-          <Row>
+          <Row className="pb-5">
             <Col className="text-center">
               <img src={Wanita} alt="" width="200px" />
-              <p className="fw-bold fs-1">Neli Nulianti</p>
+              <p className="fw-bold fs-1" style={{ fontFamily: "Great Vibes, cursive" }}>
+                Neli Nulianti
+              </p>
               <p className="fs-4">
                 Putri Dari : <br /> Bapak Yusuf <br /> & <br />
                 Ibu Entin
@@ -145,6 +155,7 @@ function App() {
             </Col>
           </Row>
         </Container>
+        <img src={Ornament2} alt="" className="ornament-bawah" />
       </section>
 
       <section className="acara min-vh-100 py-5 mx-auto">
@@ -159,16 +170,29 @@ function App() {
           <Row>
             <Col className="text-center">
               <img src={Cincin} alt="" className="mb-4" style={{ width: "100px" }} />
-              <h1 className="mb-4">Akad Nikah</h1>
-              <p className="fw-semibold fs-5">Ahad, 03 September 2023</p>
-              <p className="fw-semibold fs-5">Pukul : 08.00 s/d 10.00 WIB</p>
+              <h1 className="mb-4" style={{ fontFamily: "Great Vibes, cursive" }}>
+                Akad Nikah
+              </h1>
+              <p className="fw-semibold fs-5">
+                <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Ahad, 03 September 2023
+              </p>
+              <p className="fw-semibold fs-5">
+                <i className="fa-solid fa-clock me-2 fs-3 text-success"></i>Pukul : 08.00 s/d 10.00 WIB
+              </p>
             </Col>
           </Row>
           <Row>
             <Col className="text-center">
-              <h1 className="my-4">Resepsi</h1>
-              <p className="fw-semibold fs-5">Ahad, 03 September 2023</p>
-              <p className="fw-semibold fs-5">Pukul : 10.00 - 15.00 WIB</p>
+              <h1 className="my-4" style={{ fontFamily: "Great Vibes, cursive" }}>
+                Resepsi
+              </h1>
+              <p className="fw-semibold fs-5">
+                {" "}
+                <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Ahad, 03 September 2023
+              </p>
+              <p className="fw-semibold fs-5">
+                <i className="fa-solid fa-clock me-2 fs-3 text-success"></i>Pukul : 10.00 - 15.00 WIB
+              </p>
             </Col>
           </Row>
           <Row className="my-5">
@@ -192,7 +216,7 @@ function App() {
           <Row>
             <Col className="text-center py-5">
               <a className="btn btn-primary" target="_blank" href="https://maps.app.goo.gl/v66njrBWv6GLRbYM9" rel="noreferrer">
-                Lihat Lokasi
+                <i className="fa-solid fa-location-dot me-2"></i>Lihat Lokasi
               </a>
             </Col>
           </Row>
@@ -203,7 +227,7 @@ function App() {
         <Container>
           <Row className="mb-5">
             <Col className="text-center">
-              <h1>Amplop Online</h1>
+              <h1 style={{ fontFamily: "Great Vibes, cursive" }}>Amplop Online</h1>
               <p>Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.</p>
             </Col>
           </Row>
@@ -242,7 +266,7 @@ function App() {
         </Container>
       </section>
 
-      <section className="penutup py-5 mx-auto" style={{ backgroundColor: "black" }}>
+      <section className="penutup py-5 mx-auto" style={{ backgroundColor: "#22223b" }}>
         <Container>
           <Row>
             <Col className="text-center text-white">

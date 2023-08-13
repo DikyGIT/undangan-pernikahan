@@ -6,8 +6,30 @@
   font-family: "Roboto Slab", serif;
 }
 
+.navbar {
+  width: 50%;
+}
+
 .page-awal {
   width: 50%;
+  background-color: #f5ebe0;
+  overflow: hidden;
+}
+
+.page-awal .ornament-atas {
+  position: relative;
+  width: 500px;
+  display: block;
+  margin-inline: auto;
+  top: -80px;
+}
+
+.page-awal .ornament-bawah {
+  position: relative;
+  width: 500px;
+  display: block;
+  margin-inline: auto;
+  bottom: -80px;
 }
 
 .page-awal .bismillah {
@@ -15,8 +37,7 @@
 }
 
 .page-awal .hero {
-  margin-top: 50px;
-  width: 150px;
+  width: 400px;
 }
 
 .page-awal .hari,
@@ -93,6 +114,10 @@
   .page-awal .bismillah {
     width: 100%;
   }
+
+  .page-awal .hero {
+    width: 300px;
+  }
 }
 
 /* SURAT */
@@ -122,12 +147,24 @@
 /* MEMPELAI */
 .mempelai {
   width: 50%;
+  background-color: #f4d9ce;
 }
 
-.mempelai .ornament {
+.mempelai .ornament-atas {
   display: block;
   width: 400px;
   margin-inline: auto;
+}
+
+.mempelai .ornament-bawah {
+  display: block;
+  width: 400px;
+  margin-inline: auto;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
 }
 
 .mempelai .row:nth-child(1) .col p:nth-child(1) {
@@ -172,6 +209,7 @@
 /* ACARA */
 .acara {
   width: 50%;
+  background-color: #fefae0;
 }
 
 @media screen and (max-width: 992px) {
@@ -190,6 +228,7 @@
 /* GIFT */
 .gift {
   width: 50%;
+  background-color: #fefae0;
 }
 
 .gift img {
