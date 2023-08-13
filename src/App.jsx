@@ -183,8 +183,8 @@ function App() {
           </Row>
           <Row>
             <Col className="text-center">
-              <img src={Love} alt="" className="mb-3" style={{ width: "100px" }} data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" />
-              <h1 className="my-3" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+              <img src={Love} alt="" className="mb-3" style={{ width: "100px" }} data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" />
+              <h1 className="my-3" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                 Resepsi
               </h1>
               <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
@@ -198,10 +198,10 @@ function App() {
           </Row>
           <Row className="my-5">
             <Col className="text-center">
-              <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+              <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                 Bertempat Di
               </p>
-              <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+              <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                 Taman Pendidikan Al-Quran (TPA) As Syafiiyah - Kp. Nangoh, Desa. Toblong, Kec. Peundeuy, Kab. Garut
               </p>
             </Col>
@@ -232,8 +232,12 @@ function App() {
         <Container>
           <Row className="mb-5">
             <Col className="text-center">
-              <h1 style={{ fontFamily: "Great Vibes, cursive" }}>Amplop Online</h1>
-              <p>Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.</p>
+              <h1 style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000">
+                Amplop Online
+              </h1>
+              <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.
+              </p>
             </Col>
           </Row>
           <Row className="mb-5">
