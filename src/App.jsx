@@ -10,7 +10,6 @@ import Wanita from "./assets/mempelai-wanita.png";
 import BRI from "./assets/bri.png";
 import BCA from "./assets/bca.png";
 
-// import Ornament1 from "./assets/ornament/ornament.png";
 import Ornament2 from "./assets/ornament/ornament-2.png";
 import OrnamentAtas from "./assets/ornament/ornament-atas-2.png";
 import OrnamentBawah from "./assets/ornament/ornament-bawah-2.png";
@@ -66,8 +65,6 @@ function App() {
       {/* Navbar */}
 
       <section className="page-awal mx-auto py-5 position-relative">
-        {/* <img src={Ornament1} alt="" className="ornament-1" />
-        <img src={Ornament1} alt="" className="ornament-2" /> */}
         <img src={OrnamentAtas} alt="" className="ornament-atas" />
         <Container>
           <Row className="px-5">

@@ -104,6 +104,14 @@
   .page-awal .detik p {
     font-size: 12px;
   }
+
+  .page-awal .ornament-atas {
+    width: 400px;
+  }
+
+  .page-awal .ornament-bawah {
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 475px) {
@@ -116,6 +124,14 @@
   }
 
   .page-awal .hero {
+    width: 300px;
+  }
+
+  .page-awal .ornament-atas {
+    width: 300px;
+  }
+
+  .page-awal .ornament-bawah {
     width: 300px;
   }
 }
@@ -190,7 +206,11 @@
     font-size: 18px;
   }
 
-  .mempelai .ornament {
+  .mempelai .ornament-atas {
+    width: 350px;
+  }
+
+  .mempelai .ornament-bawah {
     width: 350px;
   }
 }
@@ -202,6 +222,14 @@
 
   .mempelai .ornament {
     width: 300px;
+  }
+
+  .mempelai .ornament-atas {
+    width: 320px;
+  }
+
+  .mempelai .ornament-bawah {
+    width: 320px;
   }
 }
 /* MEMPELAI */
