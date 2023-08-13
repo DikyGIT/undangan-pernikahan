@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -14,6 +14,45 @@ import Ornament1 from "./assets/ornament/ornament.png";
 import Ornament2 from "./assets/ornament/ornament-2.png";
 
 function App() {
+  const [timerHari, setTimerHari] = useState("00");
+  const [timerJam, setTimerJam] = useState("00");
+  const [timerMenit, setTimerMenit] = useState("00");
+  const [timerDetik, setTimerDetik] = useState("00");
+
+  let interval = useRef();
+
+  const startTimer = () => {
+    const countDownDate = new Date("Sept 03, 2023 00:00:00").getTime();
+
+    interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = countDownDate - now;
+
+      const hari = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const jam = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const menit = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const detik = Math.floor((distance % (1000 * 60)) / 1000);
+
+      if (distance < 0) {
+        clearInterval(interval.current);
+      } else {
+        setTimerHari(hari);
+        setTimerJam(jam);
+        setTimerMenit(menit);
+        setTimerDetik(detik);
+      }
+    }, 1000);
+  };
+
+  useEffect(() => {
+    startTimer();
+
+    const a = clearInterval(interval.current);
+    return () => {
+      a;
+    };
+  });
+
   const [copied, setCopied] = useState(false);
   const rekening = "415901033160539";
 
@@ -35,6 +74,27 @@ function App() {
           <Row>
             <Col className="text-center">
               <img src={HeroImg} alt="pengantin.png" className="hero" />
+              <div className="d-flex gap-md-4 gap-2 justify-content-center mt-5">
+                <div className="hari bg-black text-white">
+                  <h1>{timerHari}</h1>
+                  <p className="m-0">Hari</p>
+                </div>
+
+                <div className="jam bg-black text-white">
+                  <h1>{timerJam}</h1>
+                  <p>Jam</p>
+                </div>
+
+                <div className="menit bg-black text-white">
+                  <h1>{timerMenit}</h1>
+                  <p>Menit</p>
+                </div>
+
+                <div className="detik bg-black text-white">
+                  <h1>{timerDetik}</h1>
+                  <p>Detik</p>
+                </div>
+              </div>
               <h2 className="mt-5">Ahad, 03 September 2023</h2>
             </Col>
           </Row>

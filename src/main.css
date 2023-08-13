@@ -19,6 +19,19 @@
   width: 150px;
 }
 
+.page-awal .hari,
+.page-awal .jam,
+.page-awal .menit,
+.page-awal .detik {
+  padding-inline: 30px;
+  padding-top: 10px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
 .page-awal .ornament-1 {
   position: absolute;
   width: 200px;
@@ -47,6 +60,28 @@
 @media screen and (max-width: 768px) {
   .page-awal {
     width: 100%;
+  }
+
+  .page-awal .hari,
+  .page-awal .jam,
+  .page-awal .menit,
+  .page-awal .detik {
+    padding-inline: 20px;
+    padding-top: 10px;
+  }
+
+  .page-awal .hari h1,
+  .page-awal .jam h1,
+  .page-awal .menit h1,
+  .page-awal .detik h1 {
+    font-size: 24px;
+  }
+
+  .page-awal .hari p,
+  .page-awal .jam p,
+  .page-awal .menit p,
+  .page-awal .detik p {
+    font-size: 12px;
   }
 }
 
