@@ -6,6 +6,39 @@
   font-family: "Roboto Slab", serif;
 }
 
+.pembuka {
+  opacity: 1;
+}
+
+.pembuka .bismillah {
+  width: 250px;
+  margin-bottom: 50px;
+}
+
+.pembuka .nama {
+  font-size: 60px;
+}
+
+.pembuka.close {
+  transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  opacity: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .pembuka .nama {
+    font-size: 50px;
+  }
+}
+
 .navbar {
   width: 50%;
 }

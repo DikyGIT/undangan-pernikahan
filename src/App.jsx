@@ -2,6 +2,8 @@ import { useState, useRef, useEffect } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { Container, Row, Col } from "react-bootstrap";
 
+import PembukaComponent from "./components/PembukaComponent";
+
 import HeroImg from "./assets/hero-img.png";
 import Bismillah from "./assets/bismillah.png";
 import Cincin from "./assets/cincin.png";
@@ -63,6 +65,9 @@ function App() {
 
   return (
     <div>
+      {/* Pembuka */}
+      <PembukaComponent />
+
       {/* Navbar */}
 
       <section className="page-awal mx-auto py-5 position-relative">
