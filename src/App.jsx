@@ -4,6 +4,9 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import PembukaComponent from "./components/PembukaComponent";
 
+import ReactAudioPlayer from "react-audio-player";
+import MusicBg from "./assets/music-bg.mp3";
+
 import HeroImg from "./assets/hero-img.png";
 import Bismillah from "./assets/bismillah.png";
 import Cincin from "./assets/cincin.png";
@@ -65,6 +68,9 @@ function App() {
 
   return (
     <div>
+      {/* audio */}
+      <ReactAudioPlayer src={MusicBg} autoPlay loop />
+
       {/* Pembuka */}
       <PembukaComponent />
 
