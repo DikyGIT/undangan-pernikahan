@@ -6,8 +6,33 @@
   font-family: "Roboto Slab", serif;
 }
 
+.audio {
+  width: 50%;
+  z-index: 9998;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+@media screen and (max-width: 992px) {
+  .audio {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .audio {
+    width: 100%;
+  }
+}
+
 .pembuka {
   opacity: 1;
+  top: 0;
 }
 
 .pembuka .bismillah {

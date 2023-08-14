@@ -2,10 +2,11 @@ import { useState, useRef, useEffect } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { Container, Row, Col } from "react-bootstrap";
 
-import PembukaComponent from "./components/PembukaComponent";
+import AudioPlayer from "react-h5-audio-player";
+import Music from "./assets/music.mp3";
+import "react-h5-audio-player/lib/styles.css";
 
-import ReactAudioPlayer from "react-audio-player";
-import MusicBg from "./assets/music-bg.mp3";
+import PembukaComponent from "./components/PembukaComponent";
 
 import HeroImg from "./assets/hero-img.png";
 import Bismillah from "./assets/bismillah.png";
@@ -60,6 +61,10 @@ function App() {
     };
   });
 
+  useEffect(() => {
+    document.querySelector(".rhap_container");
+  });
+
   const [copied, setCopied] = useState(false);
   const rekening = "415901033160539";
 
@@ -68,8 +73,9 @@ function App() {
 
   return (
     <div>
-      {/* audio */}
-      <ReactAudioPlayer src={MusicBg} autoPlay loop />
+      <div className="audio position-relative">
+        <AudioPlayer autoPlay loop src={Music} className="w-100" />
+      </div>
 
       {/* Pembuka */}
       <PembukaComponent />
