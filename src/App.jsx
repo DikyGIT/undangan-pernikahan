@@ -257,7 +257,7 @@ function App() {
           <Row className="mb-5">
             <Col className="text-center">
               <h1 style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000">
-                Amplop Online
+                Wedding Gift
               </h1>
               <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.
