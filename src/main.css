@@ -12,11 +12,32 @@
 
 .pembuka .bismillah {
   width: 250px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+.pembuka .undangan {
+  --animate-delay: 0.3s;
 }
 
 .pembuka .nama {
   font-size: 60px;
+  --animate-delay: 0.6s;
+}
+
+.pembuka .terhormat {
+  --animate-delay: 0.9s;
+}
+
+.pembuka .nama-terhormat {
+  --animate-delay: 1.2s;
+}
+
+.pembuka .ucapan {
+  --animate-delay: 1.5s;
+}
+
+.pembuka .btn {
+  --animate-delay: 1.8s;
 }
 
 .pembuka.close {

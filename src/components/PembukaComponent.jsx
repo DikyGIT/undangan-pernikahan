@@ -19,15 +19,15 @@ const PembukaComponent = () => {
       style={{ zIndex: "9999", backgroundColor: "#fefae0" }}
     >
       <div className="text-center">
-        <img src={Bismillah} alt="" className="bismillah" />
-        <h1>Undangan Pernikahan</h1>
-        <h1 className="nama mb-4 mt-3" style={{ fontFamily: "Great Vibes, cursive" }}>
+        <img src={Bismillah} alt="" className="bismillah animate__animated animate__fadeInUp" />
+        <h1 className="undangan animate__animated animate__fadeInUp animate__delay-1s">Undangan Pernikahan</h1>
+        <h1 className="nama mb-4 mt-3 animate__animated animate__fadeInUp animate__delay-1s" style={{ fontFamily: "Great Vibes, cursive" }}>
           Hidmat & Neli
         </h1>
-        <p className="text-decoration-underline m-0">Kepada Yth</p>
-        <h2 className="mb-4">Bpk/Ibu/Saudara/i</h2>
-        <p>Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Berhadir Di Acara Pernikahan Kami.</p>
-        <button className="btn btn-success mt-3" onClick={() => setOpen(true)}>
+        <p className="text-decoration-underline m-0 animate__animated animate__fadeInUp animate__delay-1s terhormat">Kepada Yth</p>
+        <h2 className="mb-4 animate__animated animate__fadeInUp animate__delay-1s nama-terhormat">Bpk/Ibu/Saudara/i</h2>
+        <p className="animate__animated animate__fadeInUp animate__delay-1s ucapan">Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Berhadir Di Acara Pernikahan Kami.</p>
+        <button className="btn btn-success mt-3 animate__animated animate__fadeInUp animate__delay-1s" onClick={() => setOpen(true)}>
           <i className="fa-solid fa-envelope me-2"></i>Buka Undangan
         </button>
       </div>

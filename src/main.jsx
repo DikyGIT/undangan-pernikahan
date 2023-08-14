@@ -8,6 +8,8 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
 AOS.init();
 
+import "animate.css";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
