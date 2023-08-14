@@ -16,6 +16,31 @@
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
+  position: fixed;
+}
+
+.audio .rhap_rewind-button,
+.audio .rhap_forward-button {
+  display: none;
+}
+
+.rhap_container {
+  position: absolute;
+  top: -200px;
+}
+
+.audio p {
+  position: fixed;
+  top: 525px;
+  right: 27px;
+  font-weight: bold;
+}
+
+.rhap_play-pause-button {
+  position: fixed;
+  z-index: 9998;
+  top: 550px;
+  right: 20px;
 }
 
 @media screen and (max-width: 992px) {

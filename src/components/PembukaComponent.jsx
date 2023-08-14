@@ -27,7 +27,7 @@ const PembukaComponent = () => {
         <p className="text-decoration-underline m-0 animate__animated animate__fadeInUp animate__delay-1s terhormat">Kepada Yth</p>
         <h2 className="mb-4 animate__animated animate__fadeInUp animate__delay-1s nama-terhormat">Bpk/Ibu/Saudara/i</h2>
         <p className="animate__animated animate__fadeInUp animate__delay-1s ucapan">Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Berhadir Di Acara Pernikahan Kami.</p>
-        <button className="btn btn-success mt-3 animate__animated animate__fadeInUp animate__delay-1s" onClick={() => setOpen(true)}>
+        <button className="btnOpen btn btn-success mt-3 animate__animated animate__fadeInUp animate__delay-1s" onClick={() => setOpen(true)}>
           <i className="fa-solid fa-envelope me-2"></i>Buka Undangan
         </button>
       </div>

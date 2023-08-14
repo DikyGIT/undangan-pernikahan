@@ -61,20 +61,27 @@ function App() {
     };
   });
 
-  useEffect(() => {
-    document.querySelector(".rhap_container");
-  });
-
   const [copied, setCopied] = useState(false);
   const rekening = "415901033160539";
 
   const [copied2, setCopied2] = useState(false);
   const rekening2 = "0590027678";
 
+  const changeMusicBg = () => {
+    if (document.querySelector(".close")) {
+      document.querySelector(".rhap_container").classList.replace("rhap_play-status--paused", "rhap_play-status--playing");
+    }
+  };
+
+  useEffect(() => {
+    changeMusicBg();
+  });
+
   return (
-    <div>
-      <div className="audio position-relative">
-        <AudioPlayer autoPlay loop src={Music} className="w-100" />
+    <div className="position-relative">
+      <div className="audio">
+        <p>play</p>
+        <AudioPlayer autoPlay loop src={Music} />
       </div>
 
       {/* Pembuka */}
