@@ -3,7 +3,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import { Container, Row, Col } from "react-bootstrap";
 
 import AudioPlayer from "react-h5-audio-player";
-import Music from "./assets/music.mp3";
+import Music from "./assets/music.ogg";
 import "react-h5-audio-player/lib/styles.css";
 
 import PembukaComponent from "./components/PembukaComponent";
