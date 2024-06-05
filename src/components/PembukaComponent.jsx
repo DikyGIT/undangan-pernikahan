@@ -22,7 +22,7 @@ const PembukaComponent = () => {
         <img src={Bismillah} alt="" className="bismillah animate__animated animate__fadeInUp" />
         <h1 className="undangan animate__animated animate__fadeInUp animate__delay-1s">Undangan Pernikahan</h1>
         <h1 className="nama mb-4 mt-3 animate__animated animate__fadeInUp animate__delay-1s" style={{ fontFamily: "Great Vibes, cursive" }}>
-          Hidmat & Neli
+          Andri & Any
         </h1>
         <p className="text-decoration-underline m-0 animate__animated animate__fadeInUp animate__delay-1s terhormat">Kepada Yth</p>
         <h2 className="mb-4 animate__animated animate__fadeInUp animate__delay-1s nama-terhormat">Bpk/Ibu/Saudara/i</h2>

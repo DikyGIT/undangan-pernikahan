@@ -14,8 +14,8 @@ import Cincin from "./assets/cincin.png";
 import Love from "./assets/resepsi.png";
 import Pria from "./assets/mempelai-pria.png";
 import Wanita from "./assets/mempelai-wanita.png";
-import BRI from "./assets/bri.png";
-import BCA from "./assets/bca-syariah.png";
+import Dana from "./assets/dana.png";
+import BSI from "./assets/bsi.png";
 
 import Ornament2 from "./assets/ornament/ornament-2.png";
 import OrnamentAtas from "./assets/ornament/ornament-atas-2.png";
@@ -30,7 +30,7 @@ function App() {
   let interval = useRef();
 
   const startTimer = () => {
-    const countDownDate = new Date("Sept 03, 2023 00:00:00").getTime();
+    const countDownDate = new Date("July 06, 2024 00:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -62,10 +62,10 @@ function App() {
   });
 
   const [copied, setCopied] = useState(false);
-  const rekening = "415901033160539";
+  const rekening = "081563252794";
 
   const [copied2, setCopied2] = useState(false);
-  const rekening2 = "0590027678";
+  const rekening2 = "1220644685";
 
   const changeMusicBg = () => {
     if (document.querySelector(".close")) {
@@ -122,7 +122,7 @@ function App() {
                   <p>Detik</p>
                 </div>
               </div>
-              <h2 className="mt-5">Ahad, 03 September 2023</h2>
+              <h2 className="mt-5">Sabtu, 06 Juli 2024</h2>
             </Col>
           </Row>
         </Container>
@@ -151,11 +151,12 @@ function App() {
               </p>
               <img src={Pria} alt="" width="200px" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" />
               <p className="nama-mempelai fw-bold" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                Hidmat Sopwan Hidayat
+                Andri Sebastian
               </p>
               <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                Putra Dari : <br /> Bapak Anwar Sani <br /> & <br />
-                Ibu Elah Hayati
+                Putra Dari : <br /> Bapak Iyus Rustandi
+                <br /> & <br />
+                Ibu Siti Sa`adah
               </p>
             </Col>
           </Row>
@@ -170,11 +171,11 @@ function App() {
             <Col className="text-center">
               <img src={Wanita} alt="" width="200px" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" />
               <p className="fw-bold nama-mempelai" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                Neli Nulianti
+                Any maryani
               </p>
               <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                Putri Dari : <br /> Bapak Yusuf <br /> & <br />
-                Ibu Entin
+                Putri Dari : <br /> Bapak S. Sutrisno <br /> & <br />
+                Ibu Eti Suryati
               </p>
             </Col>
           </Row>
@@ -198,10 +199,10 @@ function App() {
                 Akad Nikah
               </h1>
               <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Ahad, 03 September 2023
+                <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Sabtu, 06 Juli 2024
               </p>
               <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                <i className="fa-solid fa-clock me-2 fs-3 text-success"></i>Pukul : 08.00 s/d 10.00 WIB
+                <i className="fa-solid fa-clock me-2 fs-3 text-success"></i>Pukul : 08.30 s/d 10.00 WIB
               </p>
             </Col>
           </Row>
@@ -213,10 +214,10 @@ function App() {
               </h1>
               <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                 {" "}
-                <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Ahad, 03 September 2023
+                <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Sabtu, 06 Juli 2024
               </p>
               <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                <i className="fa-solid fa-clock me-2 fs-3 text-success"></i>Pukul : 10.00 - 15.00 WIB
+                <i className="fa-solid fa-clock me-2 fs-3 text-success"></i>Pukul : 10.00 - Selesai WIB
               </p>
             </Col>
           </Row>
@@ -226,14 +227,14 @@ function App() {
                 Bertempat Di
               </p>
               <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                Taman Pendidikan Al-Quran (TPA) As Syafiiyah - Kp. Nangoh, Desa. Toblong, Kec. Peundeuy, Kab. Garut
+                Jalan Pasir Kayung Atas RT. 003 / RW. 009 Kel. Padasuka, Kec. Cimeunyan kab. Bandung
               </p>
             </Col>
           </Row>
           <Row>
             <Col>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4703.64173584197!2d107.91801071401125!3d-7.544908225796909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6605b024c35955%3A0x652230e78dba9c17!2sTaman%20Pendidikan%20Al-Qur&#39;an%20(TPA)%20As%20Syafiiyah!5e0!3m2!1sid!2sid!4v1691909269754!5m2!1sid!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.036643197359!2d107.66038479999999!3d-6.8862144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e78266d21d1f%3A0x3eca331ed86e06e1!2sUlen%20Ketan%20Dinasti!5e0!3m2!1sid!2sid!4v1717598546025!5m2!1sid!2sid"
                 width="100%"
                 height="450"
                 style={{ border: "5px solid #0D6EFD" }}
@@ -244,7 +245,7 @@ function App() {
           </Row>
           <Row>
             <Col className="text-center py-5">
-              <a className="btn btn-primary btn-lg" target="_blank" href="https://maps.app.goo.gl/v66njrBWv6GLRbYM9" rel="noreferrer">
+              <a className="btn btn-primary btn-lg" target="_blank" href="https://maps.app.goo.gl/WnGBj4C2rZ5HibMC7" rel="noreferrer">
                 <i className="fa-solid fa-location-dot me-2"></i>Lihat Lokasi
               </a>
             </Col>
@@ -266,7 +267,7 @@ function App() {
           </Row>
           <Row className="mb-5">
             <Col className="text-center">
-              <img src={BRI} alt="gambar" className="mb-3" />
+              <img src={Dana} alt="gambar" className="mb-3" />
               <div className={copied ? "discount-code discount-applied" : "discount-code"}>
                 <div className="black-code">{rekening}</div>
                 {copied ? (
@@ -277,12 +278,12 @@ function App() {
                   </CopyToClipboard>
                 )}
               </div>
-              <h3 className="fw-bold mt-3">An. Hidmat Sopwan Hidayat</h3>
+              <h3 className="fw-bold mt-3">An. Andri Sebastian</h3>
             </Col>
           </Row>
           <Row>
             <Col className="text-center">
-              <img src={BCA} alt="gambar" className="mb-3 bca" />
+              <img src={BSI} alt="gambar" className="mb-3 bca" />
               <div className={copied2 ? "discount-code2 discount-applied2" : "discount-code2"}>
                 <div className="black-code2">{rekening2}</div>
                 {copied2 ? (
@@ -293,7 +294,7 @@ function App() {
                   </CopyToClipboard>
                 )}
               </div>
-              <h3 className="fw-bold mt-3">An. Neli Nulianti</h3>
+              <h3 className="fw-bold mt-3">An. Any Maryani</h3>
             </Col>
           </Row>
         </Container>
@@ -304,8 +305,8 @@ function App() {
           <Row>
             <Col className="text-center text-white">
               <p className="lh-lg">Tiada Yang Dapat Kami Ungkapkan Selain Rasa Terimakasih Dari Hati Yang Tulus Apabila Bapak/ Ibu/ Saudara/i Berkenan Hadir Untuk Memberikan Do’a Restu Kepada Kami</p>
-              <h1 style={{ fontFamily: "Great Vibes, cursive" }}>Hidmat & Neli</h1>
-              <p>Ahad, 03 September 2023</p>
+              <h1 style={{ fontFamily: "Great Vibes, cursive" }}>Andri & Any</h1>
+              <p>Sabtu, 06 Juli 2024</p>
             </Col>
           </Row>
         </Container>
