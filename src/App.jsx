@@ -202,7 +202,7 @@ function App() {
                 <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Sabtu, 06 Juli 2024
               </p>
               <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                <i className="fa-solid fa-clock me-2 fs-3 text-success"></i>Pukul : 08.30 s/d 10.00 WIB
+                <i className="fa-solid fa-clock me-2 fs-3 text-success"></i>Pukul : 09.00 s/d 10.00 WIB
               </p>
             </Col>
           </Row>
@@ -227,7 +227,7 @@ function App() {
                 Bertempat Di
               </p>
               <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                Jalan Pasir Kayung Atas RT. 003 / RW. 009 Kel. Padasuka, Kec. Cimeunyan kab. Bandung
+                Jalan Pasir Layung Atas RT. 003 / RW. 009 Kel. Padasuka, Kec. Cimeunyan kab. Bandung
               </p>
             </Col>
           </Row>
