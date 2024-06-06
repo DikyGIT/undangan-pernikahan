@@ -174,7 +174,7 @@ function App() {
                 Any maryani
               </p>
               <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                Putri Dari : <br /> Bapak S. Sutrisno <br /> & <br />
+                Putri Dari : <br /> Bapak S. Sutrisno (ALM) <br /> & <br />
                 Ibu Eti Suryati
               </p>
             </Col>
