@@ -5,14 +5,6 @@ import Bismillah from "../assets/bismillah.png";
 const PembukaComponent = () => {
   const [open, setOpen] = useState(false);
 
-  // const bukaUndangan = () => {
-  //   setOpen(true);
-  // };
-
-  // useEffect(() => {
-  //   bukaUndangan();
-  // }, []);
-
   return (
     <div
       className={open ? "pembuka w-100 min-vh-100 d-flex align-items-center justify-content-center position-fixed close" : "pembuka w-100 min-vh-100 d-flex align-items-center justify-content-center position-fixed"}

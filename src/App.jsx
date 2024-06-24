@@ -2,9 +2,10 @@ import { useState, useRef, useEffect } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { Container, Row, Col } from "react-bootstrap";
 
-import AudioPlayer from "react-h5-audio-player";
+// import AudioPlayer from "react-h5-audio-player";
 import Music from "./assets/music.ogg";
 import "react-h5-audio-player/lib/styles.css";
+import useSound from "use-sound";
 
 import PembukaComponent from "./components/PembukaComponent";
 
@@ -67,25 +68,31 @@ function App() {
   const [copied2, setCopied2] = useState(false);
   const rekening2 = "1220644685";
 
-  const changeMusicBg = () => {
-    if (document.querySelector(".close")) {
-      document.querySelector(".rhap_container").classList.replace("rhap_play-status--paused", "rhap_play-status--playing");
-    }
-  };
+  // const changeMusicBg = () => {
+  //   if (document.querySelector(".close")) {
+  //     document.querySelector(".rhap_container").classList.replace("rhap_play-status--paused", "rhap_play-status--playing");
+  //   }
+  // };
 
-  useEffect(() => {
-    changeMusicBg();
-  });
+  // useEffect(() => {
+  //   changeMusicBg();
+  // });
+
+  const [playSound] = useSound(Music);
+
+  if (open) {
+    playSound();
+  }
 
   return (
     <div className="position-relative">
-      <div className="audio">
-        <p>play</p>
-        <AudioPlayer autoPlay loop src={Music} />
-      </div>
-
       {/* Pembuka */}
       <PembukaComponent />
+
+      {/* <div className="audio">
+        <p>play</p>
+        <AudioPlayer autoPlay loop src={Music} />
+      </div> */}
 
       {/* Navbar */}
 
