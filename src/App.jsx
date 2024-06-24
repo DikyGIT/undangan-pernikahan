@@ -83,7 +83,7 @@ function App() {
       <PembukaComponent />
 
       <div className="audio">
-        <p>play</p>
+        <p className="text-secondary">play</p>
         <AudioPlayer autoPlay loop src={Music} />
       </div>
 
@@ -227,7 +227,7 @@ function App() {
                 Bertempat Di
               </p>
               <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                Jalan Pasir Layung Atas RT. 003 / RW. 009 Kel. Padasuka, Kec. Cimeunyan kab. Bandung
+                Jalan Pasir Layung Atas RT. 003 / RW. 009 Kel. Padasuka, Kec. Cimenyan kab. Bandung
               </p>
             </Col>
           </Row>
