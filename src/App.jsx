@@ -67,19 +67,15 @@ function App() {
   const [copied2, setCopied2] = useState(false);
   const rekening2 = "1220644685";
 
-  if (document.querySelector(".close")) {
-    document.querySelector(".rhap_container").classList.replace("rhap_play-status--paused", "rhap_play-status--playing");
-  }
+  const changeMusicBg = () => {
+    if (open) {
+      document.querySelector(".rhap_container").classList.replace("rhap_play-status--paused", "rhap_play-status--playing");
+    }
+  };
 
-  // const changeMusicBg = () => {
-  //   if (document.querySelector(".close")) {
-  //     document.querySelector(".rhap_container").classList.replace("rhap_play-status--paused", "rhap_play-status--playing");
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   changeMusicBg();
-  // });
+  useEffect(() => {
+    changeMusicBg();
+  });
 
   return (
     <div className="position-relative">
