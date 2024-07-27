@@ -14,8 +14,8 @@ import Cincin from "./assets/cincin.png";
 import Love from "./assets/resepsi.png";
 import Pria from "./assets/mempelai-pria.png";
 import Wanita from "./assets/mempelai-wanita.png";
-import Dana from "./assets/dana.png";
-import BSI from "./assets/bsi.png";
+import BRI from "./assets/bri.png";
+// import BSI from "./assets/bsi.png";
 
 import Ornament2 from "./assets/ornament/ornament-2.png";
 import OrnamentAtas from "./assets/ornament/ornament-atas-2.png";
@@ -30,7 +30,7 @@ function App() {
   let interval = useRef();
 
   const startTimer = () => {
-    const countDownDate = new Date("July 06, 2024 00:00:00").getTime();
+    const countDownDate = new Date("August 04, 2024 00:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -62,10 +62,10 @@ function App() {
   });
 
   const [copied, setCopied] = useState(false);
-  const rekening = "081563252794";
+  const rekening = "0913 0106 8136 539";
 
-  const [copied2, setCopied2] = useState(false);
-  const rekening2 = "1220644685";
+  // const [copied2, setCopied2] = useState(false);
+  // const rekening2 = "1220644685";
 
   const changeMusicBg = () => {
     if (open) {
@@ -122,7 +122,7 @@ function App() {
                   <p>Detik</p>
                 </div>
               </div>
-              <h2 className="mt-5">Sabtu, 06 Juli 2024</h2>
+              <h2 className="mt-5">Ahad, 04 Agustus 2024</h2>
             </Col>
           </Row>
         </Container>
@@ -151,12 +151,12 @@ function App() {
               </p>
               <img src={Pria} alt="" width="200px" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" />
               <p className="nama-mempelai fw-bold" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                Andri Sebastian
+                Muhib Nawawi
               </p>
               <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                Putra Dari : <br /> Bapak Iyus Rustandi
+                Putra Dari : <br /> Bapak Cucuy Mansyuruddin
                 <br /> & <br />
-                Ibu Siti Sa`adah
+                Ibu Entin Salbiyyah
               </p>
             </Col>
           </Row>
@@ -171,11 +171,11 @@ function App() {
             <Col className="text-center">
               <img src={Wanita} alt="" width="200px" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" />
               <p className="fw-bold nama-mempelai" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                Any maryani
+                Isti Nurazizah
               </p>
               <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                Putri Dari : <br /> Bapak S. Sutrisno (ALM) <br /> & <br />
-                Ibu Eti Suryati
+                Putri Dari : <br /> Bapak K. Ade Mustopa <br /> & <br />
+                Ibu Ening Yulianingsih
               </p>
             </Col>
           </Row>
@@ -199,7 +199,7 @@ function App() {
                 Akad Nikah
               </h1>
               <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Sabtu, 06 Juli 2024
+                <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Ahad, 04 Agustus 2024
               </p>
               <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                 <i className="fa-solid fa-clock me-2 fs-3 text-success"></i>Pukul : 09.00 s/d 10.00 WIB
@@ -214,7 +214,7 @@ function App() {
               </h1>
               <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                 {" "}
-                <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Sabtu, 06 Juli 2024
+                <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Ahad, 04 Agustus 2024
               </p>
               <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                 <i className="fa-solid fa-clock me-2 fs-3 text-success"></i>Pukul : 10.00 - Selesai WIB
@@ -227,14 +227,14 @@ function App() {
                 Bertempat Di
               </p>
               <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                Jalan Pasir Layung Atas RT. 003 / RW. 009 Kel. Padasuka, Kec. Cimenyan kab. Bandung
+                Pesantren Nurul Ihsan 2
               </p>
             </Col>
           </Row>
           <Row>
             <Col>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.036643197359!2d107.66038479999999!3d-6.8862144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e78266d21d1f%3A0x3eca331ed86e06e1!2sUlen%20Ketan%20Dinasti!5e0!3m2!1sid!2sid!4v1717598546025!5m2!1sid!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d506381.88647492416!2d106.92856637343752!3d-7.453248799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e662705e7cb8297%3A0x949554d1b96ab9ce!2sPondok%20Pesantren%20Nurul%20Ihsan%20II!5e0!3m2!1sid!2sid!4v1722075654328!5m2!1sid!2sid"
                 width="100%"
                 height="450"
                 style={{ border: "5px solid #0D6EFD" }}
@@ -245,7 +245,7 @@ function App() {
           </Row>
           <Row>
             <Col className="text-center py-5">
-              <a className="btn btn-primary btn-lg" target="_blank" href="https://maps.app.goo.gl/WnGBj4C2rZ5HibMC7" rel="noreferrer">
+              <a className="btn btn-primary btn-lg" target="_blank" href="https://maps.app.goo.gl/zeFxUCAACgEKHshe8" rel="noreferrer">
                 <i className="fa-solid fa-location-dot me-2"></i>Lihat Lokasi
               </a>
             </Col>
@@ -267,7 +267,7 @@ function App() {
           </Row>
           <Row className="mb-5">
             <Col className="text-center">
-              <img src={Dana} alt="gambar" className="mb-3" />
+              <img src={BRI} alt="gambar" className="mb-3" />
               <div className={copied ? "discount-code discount-applied" : "discount-code"}>
                 <div className="black-code">{rekening}</div>
                 {copied ? (
@@ -278,10 +278,10 @@ function App() {
                   </CopyToClipboard>
                 )}
               </div>
-              <h3 className="fw-bold mt-3">An. Andri Sebastian</h3>
+              <h3 className="fw-bold mt-3">An. Muhib Nawawi</h3>
             </Col>
           </Row>
-          <Row>
+          {/* <Row>
             <Col className="text-center">
               <img src={BSI} alt="gambar" className="mb-3 bca" />
               <div className={copied2 ? "discount-code2 discount-applied2" : "discount-code2"}>
@@ -296,7 +296,7 @@ function App() {
               </div>
               <h3 className="fw-bold mt-3">An. Any Maryani</h3>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </section>
 
@@ -305,8 +305,8 @@ function App() {
           <Row>
             <Col className="text-center text-white">
               <p className="lh-lg">Tiada Yang Dapat Kami Ungkapkan Selain Rasa Terimakasih Dari Hati Yang Tulus Apabila Bapak/ Ibu/ Saudara/i Berkenan Hadir Untuk Memberikan Do’a Restu Kepada Kami</p>
-              <h1 style={{ fontFamily: "Great Vibes, cursive" }}>Andri & Any</h1>
-              <p>Sabtu, 06 Juli 2024</p>
+              <h1 style={{ fontFamily: "Great Vibes, cursive" }}>Muhib & Isti</h1>
+              <p>Ahad, 04 Agustus 2024</p>
             </Col>
           </Row>
         </Container>
