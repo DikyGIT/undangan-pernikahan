@@ -8,15 +8,15 @@ import "react-h5-audio-player/lib/styles.css";
 
 import PembukaComponent from "./components/PembukaComponent";
 
-import HeroImg from "./assets/hero-img.png";
-import Bismillah from "./assets/bismillah.png";
-import Cincin from "./assets/cincin.png";
+import HeroImg from "./assets/hero-img.webp";
+import Bismillah from "./assets/bismillah.webp";
+import Cincin from "./assets/cincin.webp";
 import Love from "./assets/resepsi.png";
-import Pria from "./assets/mempelai-pria.png";
-import Wanita from "./assets/mempelai-wanita.png";
-// import BRI from "./assets/bri.png";
-// import BSI from "./assets/bsi.png";
-import Dana from "./assets/dana.png";
+import Pria from "./assets/mempelai-pria.webp";
+import Wanita from "./assets/mempelai-wanita.webp";
+// import BRI from "./assets/bri.webp";
+// import BSI from "./assets/bsi.webp";
+import Dana from "./assets/dana.webp";
 
 import Ornament2 from "./assets/ornament/ornament-2.png";
 import OrnamentAtas from "./assets/ornament/ornament-atas-2.png";

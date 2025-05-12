@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import Bismillah from "../assets/bismillah.png";
+import Bismillah from "../assets/bismillah.webp";
 
 const PembukaComponent = () => {
   const [open, setOpen] = useState(false);
