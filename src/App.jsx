@@ -14,8 +14,9 @@ import Cincin from "./assets/cincin.png";
 import Love from "./assets/resepsi.png";
 import Pria from "./assets/mempelai-pria.png";
 import Wanita from "./assets/mempelai-wanita.png";
-import BRI from "./assets/bri.png";
+// import BRI from "./assets/bri.png";
 // import BSI from "./assets/bsi.png";
+import Dana from "./assets/dana.png";
 
 import Ornament2 from "./assets/ornament/ornament-2.png";
 import OrnamentAtas from "./assets/ornament/ornament-atas-2.png";
@@ -30,7 +31,7 @@ function App() {
   let interval = useRef();
 
   const startTimer = () => {
-    const countDownDate = new Date("August 04, 2024 00:00:00").getTime();
+    const countDownDate = new Date("June 01, 2025 00:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -62,7 +63,7 @@ function App() {
   });
 
   const [copied, setCopied] = useState(false);
-  const rekening = "0913 0106 8136 539";
+  const rekening = "0857031912539";
 
   // const [copied2, setCopied2] = useState(false);
   // const rekening2 = "1220644685";
@@ -122,7 +123,7 @@ function App() {
                   <p>Detik</p>
                 </div>
               </div>
-              <h2 className="mt-5">Ahad, 04 Agustus 2024</h2>
+              <h2 className="mt-5">Ahad, 01 Juni 2025</h2>
             </Col>
           </Row>
         </Container>
@@ -132,7 +133,7 @@ function App() {
         <Container>
           <Row>
             <Col>
-              <p className="text-center lh-lg text-white" data-aos="fade-up" data-aos-duration="1000">
+              <p className="text-center lh-lg text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                 “Dan Diantara Tanda-tanda (Kebesaran) -Nya Ialah Dia Menciptakan Pasangan-pasangan Untukmu Dari Jenismu Sendiri, Agar Kamu Cenderung Dan Merasa Tenteram Kepadanya, Dan Dia Menjadikan Diantaramu Rasa Kasih Dan Sayang.
                 Sungguh, Pada Yang Demikian Itu Benar-benar Terdapat Tanda-tanda (Kebesaran Allah) Bagi Kaum Yang Berfikir” <br /> {"Q.S : Ar-Rum (30) : 21"}
               </p>
@@ -146,36 +147,36 @@ function App() {
         <Container>
           <Row className="pt-md-5 pt-3">
             <Col className="text-center">
-              <p className="fw-semibold py-5" data-aos="fade-up" data-aos-duration="1000">
+              <p className="fw-semibold py-5" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                 Dengan Memohon Rahmat Dan Ridho Dari Allah SWT. Kami Bermaksud Menyelenggarakan Syukuran Pernikahan Putra Putri Kami
               </p>
-              <img src={Pria} alt="" width="200px" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" />
-              <p className="nama-mempelai fw-bold" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                Muhib Nawawi
+              <img src={Pria} alt="" width="200px" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true" />
+              <p className="nama-mempelai fw-bold" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
+                M. Faqih Muhtadi
               </p>
-              <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                Putra Dari : <br /> Bapak Cucuy Mansyuruddin
+              <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
+                Putra Dari : <br /> Bapak Hirman
                 <br /> & <br />
-                Ibu Entin Salbiyyah
+                Ibu Dae Haelayawati
               </p>
             </Col>
           </Row>
           <Row>
             <Col className="text-center">
-              <h1 className="py-5" style={{ fontSize: "100px", fontFamily: "Great Vibes, cursive" }} data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+              <h1 className="py-5" style={{ fontSize: "100px", fontFamily: "Great Vibes, cursive" }} data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
                 &
               </h1>
             </Col>
           </Row>
           <Row className="pb-5">
             <Col className="text-center">
-              <img src={Wanita} alt="" width="200px" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" />
-              <p className="fw-bold nama-mempelai" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                Isti Nurazizah
+              <img src={Wanita} alt="" width="200px" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true" />
+              <p className="fw-bold nama-mempelai" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
+                Fitri Nurlela
               </p>
-              <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                Putri Dari : <br /> Bapak K. Ade Mustopa <br /> & <br />
-                Ibu Ening Yulianingsih
+              <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
+                Putri Dari : <br /> Bapak Mahrodin <br /> & <br />
+                Ibu Roroh
               </p>
             </Col>
           </Row>
@@ -187,46 +188,46 @@ function App() {
         <Container>
           <Row>
             <Col className="text-center">
-              <p className="fs-4 fw-bold py-5" data-aos="fade-up" data-aos-duration="1000">
+              <p className="fs-4 fw-bold py-5" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                 Insya Allah Acara Akan <br /> Dilaksanakan Pada :
               </p>
             </Col>
           </Row>
           <Row className="mb-5">
             <Col className="text-center">
-              <img src={Cincin} alt="" className="mb-4" style={{ width: "100px" }} data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" />
-              <h1 className="mb-3" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+              <img src={Cincin} alt="" className="mb-4" style={{ width: "100px" }} data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true" />
+              <h1 className="mb-3" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
                 Akad Nikah
               </h1>
-              <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Ahad, 04 Agustus 2024
+              <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
+                <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Ahad, 01 Juni 2025
               </p>
-              <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                <i className="fa-solid fa-clock me-2 fs-3 text-success"></i>Pukul : 09.00 s/d 10.00 WIB
+              <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
+                <i className="fa-solid fa-clock me-2 fs-3 text-success"></i>Pukul : 08.00 s/d 10.00 WIB
               </p>
             </Col>
           </Row>
           <Row>
             <Col className="text-center">
-              <img src={Love} alt="" className="mb-3" style={{ width: "100px" }} data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" />
-              <h1 className="my-3" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+              <img src={Love} alt="" className="mb-3" style={{ width: "100px" }} data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true" />
+              <h1 className="my-3" style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true">
                 Resepsi
               </h1>
-              <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+              <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
                 {" "}
-                <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Ahad, 04 Agustus 2024
+                <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Ahad, 01 Juni 2025
               </p>
-              <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+              <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
                 <i className="fa-solid fa-clock me-2 fs-3 text-success"></i>Pukul : 10.00 - Selesai WIB
               </p>
             </Col>
           </Row>
           <Row className="my-5">
             <Col className="text-center">
-              <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+              <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
                 Bertempat Di
               </p>
-              <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+              <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true">
                 Pesantren Nurul Ihsan 2
               </p>
             </Col>
@@ -257,17 +258,17 @@ function App() {
         <Container>
           <Row className="mb-5">
             <Col className="text-center">
-              <h1 style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000">
+              <h1 style={{ fontFamily: "Great Vibes, cursive" }} data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                 Wedding Gift
               </h1>
-              <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true">
                 Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.
               </p>
             </Col>
           </Row>
           <Row className="mb-5">
             <Col className="text-center">
-              <img src={BRI} alt="gambar" className="mb-3" />
+              <img src={Dana} alt="gambar" className="mb-3" />
               <div className={copied ? "discount-code discount-applied" : "discount-code"}>
                 <div className="black-code">{rekening}</div>
                 {copied ? (
@@ -278,7 +279,7 @@ function App() {
                   </CopyToClipboard>
                 )}
               </div>
-              <h3 className="fw-bold mt-3">An. Muhib Nawawi</h3>
+              <h3 className="fw-bold mt-3">An. Fitri Nurlela</h3>
             </Col>
           </Row>
           {/* <Row>
@@ -305,8 +306,8 @@ function App() {
           <Row>
             <Col className="text-center text-white">
               <p className="lh-lg">Tiada Yang Dapat Kami Ungkapkan Selain Rasa Terimakasih Dari Hati Yang Tulus Apabila Bapak/ Ibu/ Saudara/i Berkenan Hadir Untuk Memberikan Do’a Restu Kepada Kami</p>
-              <h1 style={{ fontFamily: "Great Vibes, cursive" }}>Muhib & Isti</h1>
-              <p>Ahad, 04 Agustus 2024</p>
+              <h1 style={{ fontFamily: "Great Vibes, cursive" }}>Faqih & Fitri</h1>
+              <p>Ahad, 01 Juni 2025</p>
             </Col>
           </Row>
         </Container>

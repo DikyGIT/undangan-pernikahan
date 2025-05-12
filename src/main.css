@@ -382,7 +382,7 @@
 }
 
 .gift img {
-  width: 200px;
+  width: 300px;
 }
 
 .gift .bca {
@@ -412,6 +412,10 @@
 
   .gift .bca {
     width: 300px;
+  }
+
+  .gift img {
+    width: 250px;
   }
 }
 
