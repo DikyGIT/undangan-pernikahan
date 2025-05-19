@@ -214,7 +214,6 @@ function App() {
                 Resepsi
               </h1>
               <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
-                {" "}
                 <i className="fa-solid fa-calendar-days me-2 fs-3 text-success"></i>Ahad, 01 Juni 2025
               </p>
               <p className="fw-semibold fs-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
@@ -228,14 +227,14 @@ function App() {
                 Bertempat Di
               </p>
               <p className="fs-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true">
-                Pesantren Nurul Ihsan 2
+                Rumah Mempelai Wanita
               </p>
             </Col>
           </Row>
           <Row>
             <Col>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d506381.88647492416!2d106.92856637343752!3d-7.453248799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e662705e7cb8297%3A0x949554d1b96ab9ce!2sPondok%20Pesantren%20Nurul%20Ihsan%20II!5e0!3m2!1sid!2sid!4v1722075654328!5m2!1sid!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3955.978624991624!2d107.56267677500178!3d-7.4676116925440095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMjgnMDMuNCJTIDEwN8KwMzMnNTQuOSJF!5e0!3m2!1sid!2sid!4v1747133278252!5m2!1sid!2sid"
                 width="100%"
                 height="450"
                 style={{ border: "5px solid #0D6EFD" }}
@@ -246,7 +245,7 @@ function App() {
           </Row>
           <Row>
             <Col className="text-center py-5">
-              <a className="btn btn-primary btn-lg" target="_blank" href="https://maps.app.goo.gl/zeFxUCAACgEKHshe8" rel="noreferrer">
+              <a className="btn btn-primary btn-lg" target="_blank" href="https://maps.app.goo.gl/XUvSPje98iEBtDQ4A" rel="noreferrer">
                 <i className="fa-solid fa-location-dot me-2"></i>Lihat Lokasi
               </a>
             </Col>
